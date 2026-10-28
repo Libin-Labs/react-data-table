@@ -1,0 +1,2 @@
+import Table from '../src/index.js';
+export const sample = <Table data={[{ id: 'one', name: 'One' }]} columns={[{ id: 'name', accessor: 'name', cell: (_, row) => row.name }]} selectionMode="multiple" />;
